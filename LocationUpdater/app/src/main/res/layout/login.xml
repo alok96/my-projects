@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/welcome"
+        android:textSize="20sp"
+        android:text="@string/enter_registration"/>-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clientId"
+        android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/clientIDLabel"
+                android:textSize="16sp"
+                android:text="@string/clientIdLabel"/>
+
+
+
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="#f8ae1100"-->
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/clientIDValue"
+                android:textSize="16sp"
+                />
+
+
+
+
+        <!---->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameLabel"
+            android:textSize="16sp"
+            android:text="@string/usernameLabel"/>
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="#f8ae1100"-->
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameValue"
+            android:textSize="16sp"
+            />
+        <!---->
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordLabel"
+            android:textSize="16sp"
+            android:text="@string/passwordLabel"/>
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="#f8ae1100"-->
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordValue"
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            />
+        <!---->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        >
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cred_Ok"
+            android:text= "@string/cred_Ok"
+            android:layout_marginRight ="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textAllCaps="true"
+            android:textColor="#f709af1a"
+
+            />
+        <!-- android:textColor="#f709af1a"-->
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cred_cancel"
+            android:text= "@string/Cancel"
+            android:textAllCaps="true"
+            android:soundEffectsEnabled="true"
+            android:layout_marginBottom="20dp"
+            android:textColor="#ffc40000"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

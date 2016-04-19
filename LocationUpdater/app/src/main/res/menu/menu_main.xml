@@ -1,0 +1,69 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+            <!-- <item
+                 android:id="@+id/regDevice"
+                 android:icon="@drawable/add"
+                 app:showAsAction="ifRoom"
+                 android:title="@string/Reg_Vehicle"/>-->
+            <item
+                android:id="@+id/dispatch"
+                android:icon="@drawable/cyc_g"
+                app:showAsAction="ifRoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="@string/Dispatch"/>
+
+            <item
+                android:id="@+id/userCredentials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/key"
+                app:showAsAction="ifRoom"
+                android:title="@string/UserCredentials"/>
+            <!-- Help -->
+
+
+
+
+    <!--<item android:id="@+id/option2"
+        android:title="refresh"
+        android:icon="@drawable/refresh"
+        app:showAsAction="always"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />-->
+
+
+    <!--<item android:id="@+id/option1"
+        android:title=""
+        android:icon="@drawable/option1_w"
+        app:showAsAction="always"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <menu>
+           &lt;!&ndash; <item
+                android:id="@+id/regDevice"
+                android:icon="@drawable/add"
+                app:showAsAction="ifRoom"
+                android:title="@string/Reg_Vehicle"/>&ndash;&gt;
+
+            <item
+                android:id="@+id/dispatch"
+                android:icon="@drawable/cyc_g"
+                app:showAsAction="ifRoom"
+                android:title="@string/Dispatch"/>
+            &lt;!&ndash; Help &ndash;&gt;
+
+        </menu>
+    </item>-->
+
+
+</menu>

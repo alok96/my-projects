@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="biz.antworks.locationupdater.DispatchDetailsActivity">
+
+    <item android:id="@+id/home"
+        android:title="@string/home"
+        app:showAsAction="always"
+        android:icon="@drawable/home_grey"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</menu>

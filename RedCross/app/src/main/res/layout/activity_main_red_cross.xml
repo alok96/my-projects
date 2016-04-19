@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.app.zef.redcross.MainRedCross">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Register Donor"
+        android:id="@+id/registerDonor"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="gotoActivity"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Blood Banks"
+        android:id="@+id/showBloodBank"
+        android:layout_marginTop="120dp"
+
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:id="@+id/exit"
+        android:layout_marginTop="180dp"
+
+
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

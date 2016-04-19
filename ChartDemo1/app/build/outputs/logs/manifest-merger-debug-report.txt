@@ -1,0 +1,60 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:2:1-20:12
+	xmlns:android
+		ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:3:7-48
+		INJECTED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:5:7-34
+		INJECTED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:4:7-30
+		INJECTED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:6:5-18:19
+	android:label
+		ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:6:48-80
+	android:icon
+		ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:6:18-47
+activity#org.achartengine.chartdemo.demo.ChartDemo
+ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:7:9-13:20
+	android:label
+		ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:8:19-50
+	android:name
+		ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:7:19-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:9:13-12:29
+action#android.intent.action.MAIN
+ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:10:17-69
+	android:name
+		ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:10:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:11:17-77
+	android:name
+		ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:11:27-74
+activity#org.achartengine.chartdemo.demo.chart.XYChartBuilder
+ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:15:3-83
+	android:name
+		ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:15:13-80
+activity#org.achartengine.GraphicalActivity
+ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:16:9-71
+	android:name
+		ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:16:19-68
+activity#org.achartengine.chartdemo.demo.GeneratedChartDemo
+ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:17:3-50
+	android:name
+		ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:17:13-47
+uses-sdk
+ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:19:1-48
+	android:targetSdkVersion
+		INJECTED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml:19:11-36
+		INJECTED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/zef/AndroidStudioProjects/ChartDemo1/app/src/main/AndroidManifest.xml

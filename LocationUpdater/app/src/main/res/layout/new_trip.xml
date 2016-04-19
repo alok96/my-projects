@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        android:paddingTop="20dp">
+
+    <TextView
+        android:id="@+id/start"
+        android:text="Start"
+        android:textColor="#ff394cfc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="40dp"/>
+
+    <Spinner
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_start"
+        android:entries="@array/start_array"
+        android:layout_toRightOf="@+id/start"
+        android:layout_toEndOf="@+id/start" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout"
+        android:id="@+id/linearLayout2"
+        android:paddingTop="20dp">
+
+       <TextView
+        android:id="@+id/destination"
+        android:text="Destination"
+        android:textColor="#ff394cfc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"/>
+
+       <Spinner
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_end"
+        android:entries="@array/stop_array"
+        android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:id="@+id/linearLayout3"
+        android:paddingTop="20dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Round_trip"
+                android:id="@+id/round_trip"
+               />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout3"
+        android:id="@+id/linearLayout4">
+
+        <Button
+            android:id="@+id/ok_Button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/ok_button"
+            android:textColor="#ff23991b"
+           />
+
+        <Button
+            android:id="@+id/cancel_Button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/cancel_button"
+            android:textColor="#ffe71910"
+         />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

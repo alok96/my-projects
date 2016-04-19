@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AntRoute</string>
+    <string name="service_started">Location Service started</string>
+    <string name="service_label">Location Service Label</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="latitude_label">Latitude: </string>
+    <string name="longitude_label">Longitude: </string>
+
+    <string name="start_updates">Start updates</string>
+    <string name="stop_updates">Stop updates</string>
+
+    <string name="last_update_time_label">Last location update time: </string>
+
+    <string name="location_updated_message">Location updated</string>
+    <string name="location_saved_message">Location saved</string>
+    <string name="no_geocoder_available">No geocoder available</string>
+
+    <string name="fetch_address">Fetch address </string>
+
+    <string name="address_found">Present Address :</string>
+
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+
+
+    <string name= "Reg_Vehicle"> New Trip </string>
+    <string name="enter_registration">Enter Credentials</string>
+
+
+    <string name="deviceHint">15Digit Num</string>
+
+    <string name="stateHint">KA</string>
+    <string name="cityHint">03</string>
+    <string name="seriesHint">US</string>
+    <string name="numHint">0101</string>
+    <string name="Line">------------------------------------</string>
+    <string name="Reg">Get Trip</string>
+    <string name="Cancel">Cancel</string>
+
+    <string name="lastReg"> DispatchId :  </string>
+    <string name="subIdLabel">Sub ID : </string>
+    <string name="subId"> </string>
+
+
+    <string name="Dispatch">History</string>
+    <string name="home">Home</string>
+    <string name="Sep"> </string>
+    <string name="DateHead">Date</string>
+    <string name="FromHead">From</string>
+    <string name="ToHead">To</string>
+    <string name="StatusHead">Status</string>
+
+    <string name="get_trip">Got Trip\t</string>
+    <string name="start_trip">Start</string>
+    <string name="reached"> Reached </string>
+    <string name="finished"> Finished </string>
+
+
+
+    <string name="New"> New </string>
+
+    <string name="labels"> </string>
+    <string name="list"> list </string>
+
+    <string-array name="start_array">
+        <item>Banglore</item>
+        <item>Elite(Thrissur)</item>
+        <item>Mandovi(Goa)</item>
+        <item>Esveeaar(Tirupati)</item>
+        <item> Sree Venketeshwara(Hyd)</item>
+        <item>Seven seas(Thrissur)</item>
+        <item>Poland</item>
+        <item>India</item>
+    </string-array>
+
+    <string-array name="stop_array">
+        <item>Banglore</item>
+        <item>Elite(Thrissur)</item>
+        <item>Mandovi(Goa)</item>
+        <item>Esveeaar(Tirupati)</item>
+        <item> Sree Venketeshwara(Hyd)</item>
+        <item>Seven seas(Thrissur)</item>
+        <item>Poland</item>
+        <item>India</item>
+    </string-array>
+
+    <string name="Round_trip">Round Trip</string>
+
+    <string name="ok_button"> OK </string>
+    <string name="cancel_button">Cancel</string>
+    <string name="start_place_label">Start\t\t\t\t\t : </string>
+    <string name="dest_place_label">Destination\t : </string>
+    <string name="status_label">Status\t\t\t\t : </string>
+
+    <string name="start_place_view"> ----  </string>
+    <string name="dest_place_view"> ----  </string>
+    <string name="status_view"> ---- </string>
+
+    <string name="Trip_Details"><u>Current Trip Details</u></string>
+    <string name="confirm_btn">Confirm</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="VehicleNo">VehicleNo : </string>
+    <string name="title_activity_dispatch_details">Dispatch Details</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="finished_view">---</string>
+    <string name="reached_view">---</string>
+    <string name="start_trip_view">---</string>
+    <string name="get_trip_view">---</string>
+    <string name="started_trip"> Started\t</string>
+    <string name="get_trip_btn">Get Trip</string>
+    <string name="clientIdLabel">My ID</string>
+    <string name="usernameLabel">Username</string>
+    <string name="passwordLabel">Password</string>
+    <string name="UserCredentials">User Credentials</string>
+    <string name="cred_Ok">Ok</string>
+
+
+</resources>

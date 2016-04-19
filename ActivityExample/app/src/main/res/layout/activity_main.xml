@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/layout_gradient"
+    tools:context="com.app.zef.activityexample.MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/whatsapp"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:onClick="goToWhatsapp"
+        android:src="@drawable/ic_whatsapp"
+        android:padding="5dip"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:layout_alignTop="@+id/linkedin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center|left" />
+
+    <ImageButton
+        android:id="@+id/linkedin"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:src="@drawable/ic_linkedin"
+        android:onClick="goToLinkedin"
+        android:padding="5dip"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:layout_alignTop="@+id/gmail"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/gmail"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:src="@drawable/ic_mail"
+        android:onClick="goToGmail"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="5dip"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <ImageButton
+        android:id="@+id/facebook"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:src="@drawable/ic_facebook"
+        android:onClick="goToFacebook"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="5dip"
+        android:layout_below="@+id/whatsapp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
+    <ImageButton
+        android:id="@+id/fbMessenger"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:src="@drawable/ic_messenger"
+        android:onClick="goToFbMessenger"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="5dip"
+        android:layout_alignTop="@+id/facebook"
+        android:layout_alignLeft="@+id/linkedin"
+        android:layout_alignStart="@+id/linkedin" />
+    <ImageButton
+        android:id="@+id/insta"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:src="@drawable/ic_instagram"
+        android:onClick="goToInstagram"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="5dip"
+        android:layout_alignTop="@+id/fbMessenger"
+        android:layout_alignLeft="@+id/gmail"
+        android:layout_alignStart="@+id/gmail" />
+
+    <ImageButton
+        android:id="@+id/map"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:src="@drawable/ic_gmap"
+        android:onClick="goToMap"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="5dip"
+        android:layout_below="@+id/facebook"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp" />
+
+    <ImageButton
+        android:id="@+id/youtube"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:src="@drawable/ic_youtube"
+        android:onClick="goToYoutube"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="5dip"
+        android:layout_alignTop="@+id/map"
+        android:layout_alignLeft="@+id/fbMessenger"
+        android:layout_alignStart="@+id/fbMessenger" />
+    <ImageButton
+        android:id="@+id/twitter"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:src="@drawable/ic_twitter"
+        android:onClick="goToTwitter"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="5dip"
+        android:layout_alignTop="@+id/youtube"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
